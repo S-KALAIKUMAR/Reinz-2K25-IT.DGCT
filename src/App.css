@@ -1,0 +1,6 @@
+
+/* Import all modular CSS files */
+@import './styles/animations.css';
+@import './styles/typography.css';
+@import './styles/layout.css';
+@import './styles/components.css';
