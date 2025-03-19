@@ -17,26 +17,31 @@ export const ContactSection = memo(function ContactSection() {
         </div>
         
         {/* Faculty Coordinators */}
+
+
+
+
+ 
         <div className="mb-12">
           <h3 className="text-xl font-semibold text-center mb-8">Faculty Coordinators</h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="glass-card p-6 animate-on-scroll opacity-0">
-              <h4 className="text-lg font-medium mb-3">Faculty Coordinator Name</h4>
+              <h4 className="text-lg font-medium mb-3">Ms.S.M.Nivetha, AP/IT</h4>
               <div className="flex items-center mb-2">
                 <Phone className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">9597604228</p>
+                <p className="text-muted-foreground">96291 40081</p>
               </div>
               <div className="flex items-center">
                 <Mail className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">varshanadevi@ksrct.ac.in</p>
+                <p className="text-muted-foreground">nivetha.it@dgct.ac.in</p>
               </div>
             </div>
             
             <div className="glass-card p-6 animate-on-scroll opacity-0">
-              <h4 className="text-lg font-medium mb-3">Faculty Coordinator Name</h4>
+              <h4 className="text-lg font-medium mb-3">Ms.J.Gulzar Begam, AP/IT</h4>
               <div className="flex items-center mb-2">
                 <Phone className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">9597604228</p>
+                <p className="text-muted-foreground">88256 11580</p>
               </div>
               <div className="flex items-center">
                 <Mail className="text-primary mr-2" size={18} />
@@ -51,26 +56,26 @@ export const ContactSection = memo(function ContactSection() {
           <h3 className="text-xl font-semibold text-center mb-8">Student Coordinators</h3>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="glass-card p-6 animate-on-scroll opacity-0">
-              <h4 className="text-lg font-medium mb-3">Alyushra A</h4>
+              <h4 className="text-lg font-medium mb-3">Mr.S.Sivaramakrishnan</h4>
               <div className="flex items-center mb-2">
                 <Phone className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">6369548280</p>
+                <p className="text-muted-foreground">86818 10801</p>
               </div>
               <div className="flex items-center">
                 <Mail className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">alyushra96@gmail.com</p>
+                <p className="text-muted-foreground">sivasoundiran06@gmail.com</p>
               </div>
             </div>
             
             <div className="glass-card p-6 animate-on-scroll opacity-0">
-              <h4 className="text-lg font-medium mb-3">Peranandha KL</h4>
+              <h4 className="text-lg font-medium mb-3">Ms.A.V.Vaishnaavi</h4>
               <div className="flex items-center mb-2">
                 <Phone className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">8148537603</p>
+                <p className="text-muted-foreground">99445 12579</p>
               </div>
               <div className="flex items-center">
                 <Mail className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">peranandha17@gmail.com</p>
+                <p className="text-muted-foreground">Vaishnaavivelaventhan@gmail.com</p>
               </div>
             </div>
           </div>
@@ -91,20 +96,20 @@ export const ContactSection = memo(function ContactSection() {
           
           <h3 className="text-xl font-semibold mb-6">Follow Us</h3>
           <div className="flex justify-center space-x-8">
-            <a href="https://instagram.com/symposium" target="_blank" rel="noopener noreferrer" 
+            <a href="https://www.instagram.com/elite_dgct?igsh=YXJ6bWU4MXdjbXNh" target="_blank" rel="noopener noreferrer" 
               className="flex flex-col items-center transition-transform hover:scale-110">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2">
                 <Instagram className="text-primary" size={20} />
               </div>
-              <span className="text-sm text-muted-foreground">@symposium</span>
+              <span className="text-sm text-muted-foreground">elite_dgct</span>
             </a>
             
-            <a href="mailto:symposium@dgct.ac.in" 
+            <a href="elite@dgct.ac.in" 
               className="flex flex-col items-center transition-transform hover:scale-110">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2">
                 <Mail className="text-primary" size={20} />
               </div>
-              <span className="text-sm text-muted-foreground">symposium@dgct.ac.in</span>
+              <span className="text-sm text-muted-foreground">elite@dgct.ac.in</span>
             </a>
           </div>
         </div>

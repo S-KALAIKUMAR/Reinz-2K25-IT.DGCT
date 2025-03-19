@@ -118,7 +118,7 @@ const Index = () => {
                 Register now to participate in our exciting events and workshops!
               </p>
               <a 
-                href="https://forms.gle/4gU9NPMniKiyug3A7" 
+                href="https://forms.gle/5TzQnWDahhKXhR1A8" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg"
@@ -134,15 +134,17 @@ const Index = () => {
         
         {/* Footer */}
         <footer className="py-10 border-t border-border w-full bg-background/80 backdrop-blur-sm">
-          <div className="container px-6">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="mb-4 md:mb-0">
-                <p className="text-sm text-muted-foreground">
-                  © 2025 Information Technology & Elite Association. All rights reserved.
-                </p>
-              </div>
+         <div className="container px-6">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div className="mb-4 md:mb-0">
+              <p className="text-sm text-muted-foreground">
+                © 2025 Information Technology & Elite Association. All rights reserved.
+              </p>
+           </div>
+         
+
               
-              <div className="flex space-x-6">
+              {/*<div className="flex space-x-6">
                 <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Privacy Policy
                 </a>
@@ -152,7 +154,7 @@ const Index = () => {
                 <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Cookie Policy
                 </a>
-              </div>
+              </div>*/}
             </div>
           </div>
         </footer>

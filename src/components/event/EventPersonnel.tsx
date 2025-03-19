@@ -13,38 +13,32 @@ export const EventPersonnel = ({ editMode }: EventPersonnelProps) => {
     switch (id) {
       case 'ideathon':
         return [
-          { name: "Prof. Rajesh Kumar", role: "AI Specialist" },
-          { name: "Dr. Meena K", role: "Product Innovation Expert" }
+          { name: "Ms.A.Malathi", role: "AP/IT" }
         ];
       case 'cook-with-prompt':
         return [
-          { name: "Dr. Anitha S", role: "Industry Expert" },
-          { name: "Mr. Govind R", role: "Prompt Engineer" }
+          { name: "Ms.M.Sathya", role: "AP/IT" }
         ];
       case 'bug-bounty':
         return [
-          { name: "Prof. Venkat N", role: "Security Specialist" },
-          { name: "Ms. Shreya T", role: "Debug Expert" }
+          { name: "Ms.M.Narmatha", role: "AP/IT" }
         ];
       case 'meme-media':
         return [
-          { name: "Dr. Priya S", role: "Digital Media Faculty" },
-          { name: "Mr. Karthik R", role: "Content Creator" }
+          { name: "Ms.N.Jothi", role: "AP/IT" }
+          
         ];
       case 'ai-photography':
         return [
-          { name: "Prof. Sanjay M", role: "Visual Arts Faculty" },
-          { name: "Ms. Deepika L", role: "Professional Photographer" }
+          { name: "Ms.K.Karthi", role: "AP/IT" }
         ];
       case 'ai-workshop':
         return [
-          { name: "Dr. Ramesh V", role: "AI Researcher" },
-          { name: "Ms. Sarah J", role: "ML Engineer" }
+          { name: "Ms.J.Gulzar Begam", role: "AP/IT" }
         ];
       default:
         return [
-          { name: "Prof. Rajesh Kumar", role: "AI Specialist" },
-          { name: "Dr. Anitha S", role: "Industry Expert" }
+          { name: "Ms.S.M.Nivetha", role: "AP/IT" }
         ];
     }
   };
@@ -54,38 +48,49 @@ export const EventPersonnel = ({ editMode }: EventPersonnelProps) => {
     switch (id) {
       case 'ideathon':
         return [
-          { name: "Alyushra A", contact: "6369548280" },
-          { name: "Rahul S", contact: "9876543210" }
+          { name: "P.Aathish Kumar"},
+          { name: "S.Karthikeyan"},
+          { name: ".Aryan Bhaskar sooryavanshi "},
+          { name: "Srinidhi"}
         ];
       case 'cook-with-prompt':
         return [
-          { name: "Peranandha KL", contact: "8148537603" },
-          { name: "Kavya R", contact: "9988776655" }
+          { name: "S.Akash"},
+          { name: "L.G.Gopika"},
+          { name: "Mugilan"},
+          { name: "shrimathi"}
         ];
       case 'bug-bounty':
         return [
-          { name: "Arjun K", contact: "7788996655" },
-          { name: "Meera P", contact: "8899775544" }
+          { name: "M.Suresh"},
+          { name: "M.Sandhiya"},
+          { name: "Afra Fatima"},
+          { name: " Meiyalagan"}
         ];
       case 'meme-media':
         return [
-          { name: "Divya S", contact: "7766554433" },
-          { name: "Akash M", contact: "8877665544" }
+          { name: "R.Arun Eshwar"},
+          { name: "S.Arun prasath"},
+          { name: "Aryan Bhaskar sooryavanshi"},
+          { name: "Deepak"}
         ];
       case 'ai-photography':
         return [
-          { name: "Vikram J", contact: "9988776655" },
-          { name: "Lakshmi N", contact: "8877665544" }
+          { name: "G.Divyadharshini"},
+          { name: "A.B.Mohammad Zaffer"},
+          { name: "Balasubramaniam"},
+          { name: "shantha Sri"}
         ];
       case 'ai-workshop':
         return [
-          { name: "Karthikeyan P", contact: "7788996655" },
-          { name: "Sona L", contact: "8877665544" }
+          { name: "S.Gokul Dharshan"},
+          { name: "M.Subham Kumar "},
+          { name: ".premalatha"},
+          { name: "Guru"}
         ];
       default:
         return [
-          { name: "Alyushra A", contact: "6369548280" },
-          { name: "Peranandha KL", contact: "8148537603" }
+          { name: "S.Sivaramakrishnan", contact: "86818 10801" },
         ];
     }
   };

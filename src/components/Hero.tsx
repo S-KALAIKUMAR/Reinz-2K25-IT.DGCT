@@ -45,7 +45,7 @@ export function Hero() {
             </a>
             
             <a 
-              href="https://forms.gle/4gU9NPMniKiyug3A7" 
+              href="https://forms.gle/5TzQnWDahhKXhR1A8" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-full bg-white/80 backdrop-blur-sm text-foreground font-medium border border-border transition-all hover:shadow-lg hover:bg-white hover:scale-105 dark:bg-black/30 dark:hover:bg-black/50 dark:text-white"

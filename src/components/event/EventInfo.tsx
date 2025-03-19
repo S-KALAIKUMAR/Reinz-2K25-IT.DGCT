@@ -15,58 +15,53 @@ export const EventInfo = ({ event, editMode = false, editedEvent, setEditedEvent
   const getVenueInfo = (eventId: string) => {
     switch (eventId) {
       case 'ideathon':
-        return "Conference Hall A, Main Building";
+        return  "Centre For Information Technology Lab , First floor (Main Block)";
       case 'cook-with-prompt':
-        return "IT Lab 1, Third Floor";
+        return "Centre For Information Technology Lab , First floor (Main Block)";
       case 'bug-bounty':
-        return "Conference Hall B, Main Building";
+        return "Centre For Information Technology Lab , First floor (Main Block)";
       case 'meme-media':
-        return "Seminar Hall, Second Floor";
+        return "Centre For Information Technology Lab , First floor (Main Block)";
       case 'ai-photography':
-        return "Photography Studio, Ground Floor";
+        return "Centre For Information Technology Lab , First floor (Main Block)";
       case 'ai-workshop':
-        return "IT Lab 3, Fourth Floor";
+        return "Placement Seminar Hall, Admin Block";
       default:
-        return "Conference Hall B, Main Building";
+        return "Placement Seminar Hall, Admin Block";
     }
   };
 
   // Registration links for each event
-  const getRegistrationLink = (eventId: string) => {
-    const baseUrl = "https://forms.gle/4gU9NPMniKiyug3A7";
-    switch (eventId) {
-      case 'ideathon':
-        return `${baseUrl}ideathonRegistration`;
-      case 'cook-with-prompt':
-        return `${baseUrl}cookWithPromptRegistration`;
-      case 'bug-bounty':
-        return `${baseUrl}bugBountyRegistration`;
-      case 'meme-media':
-        return `${baseUrl}memeMediaRegistration`;
-      case 'ai-photography':
-        return `${baseUrl}aiPhotographyRegistration`;
-      case 'ai-workshop':
-        return `${baseUrl}aiWorkshopRegistration`;
-      default:
-        return `${baseUrl}defaultRegistration`;
-    }
+// Registration links for each event
+const getRegistrationLink = (eventId: string) => {
+  const registrationLinks: Record<string, string> = {
+    'ideathon': "https://forms.gle/5TzQnWDahhKXhR1A8", 
+    'cook-with-prompt': "https://forms.gle/5TzQnWDahhKXhR1A8",
+    'bug-bounty': "https://forms.gle/5TzQnWDahhKXhR1A8",
+    'meme-media': "https://forms.gle/5TzQnWDahhKXhR1A8",
+    'ai-photography': "https://forms.gle/5TzQnWDahhKXhR1A8",
+    'ai-workshop': "https://forms.gle/5TzQnWDahhKXhR1A8",
   };
+
+  return registrationLinks[eventId] || "https://forms.gle/5TzQnWDahhKXhR1A8"; 
+};
+
 
   // Limit info for each event
   const getLimitInfo = (eventId: string) => {
     switch (eventId) {
       case 'ideathon':
-        return "Limited to 20 teams. Register early to secure your participation.";
+        return " Register early to secure your participation.";
       case 'cook-with-prompt':
-        return "Limited to 50 participants. Registration is first-come, first-served.";
+        return " Registration is first-come, first-served.";
       case 'bug-bounty':
-        return "Limited to 30 participants. Register early to secure your spot.";
+        return " Register early to secure your spot.";
       case 'meme-media':
-        return "Open to all students. Limited to 40 participants.";
+        return "Open to all students..";
       case 'ai-photography':
-        return "Limited to 25 participants. Bring your own camera if possible.";
+        return " Bring your own camera if possible.";
       case 'ai-workshop':
-        return "Workshop limited to 60 participants. Laptop required.";
+        return "Workshop limited to 50 participants. Laptop Mandatory.";
       default:
         return "Limited spots available. Register early to secure your participation.";
     }

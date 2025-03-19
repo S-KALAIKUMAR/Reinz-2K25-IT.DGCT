@@ -66,9 +66,9 @@ export function EditableAbout() {
 <div className="mt-6 text-justify">
   <h3 className="text-2xl font-semibold text-white mb-2 text-center">About Our Department</h3>
   <p className="leading-relaxed text-muted-foreground">
-    The Department of Computer Science and Engineering was established in the year 2001. 
-    The department offers a UG program in Computer Science and Engineering, accredited by 
-    NBA in 2008, 2018, and 2022.
+  The Department of Information Technology at Dhirajlal Gandhi College of Technology, established in 2022 is committed to delivering excellence in IT education. It nurtures both technical expertise and responsible citizenship, ensuring students gain a strong foundation in both theoretical and practical aspects of Information Technology.
+
+
   </p>
   <p className="leading-relaxed text-muted-foreground mt-2">
     Our department is committed to providing a comprehensive education that blends theoretical 
@@ -81,9 +81,8 @@ export function EditableAbout() {
 <div className="mt-6 text-justify">
   <h3 className="text-2xl font-semibold text-white mb-2 text-center">Vision</h3>
   <p className="leading-relaxed text-muted-foreground">
-    To be a globally recognized department in computing education and research, fostering 
-    innovation and technological advancement for societal benefit.To be a globally recognized department in computing education and research, fostering 
-    innovation and technological advancement for societal benefit.
+  To cultivate a learning environment that seamlessly integrates theoretical knowledge with hands-on experience, upholding a legacy of academic excellence.
+
   </p>
 </div>
 
