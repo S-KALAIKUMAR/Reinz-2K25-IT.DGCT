@@ -50,7 +50,7 @@ export function EditableAbout() {
 <div className="flex justify-center">
   <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-primary shadow-lg">
     <img 
-      src="/images/logo.jpg" 
+      src="images/logo.jpg" 
       alt="Department Logo" 
       className="w-full h-full object-cover"
     />
