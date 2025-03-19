@@ -20,11 +20,11 @@ export function Hero() {
       <div className="container relative z-20 px-6 animate-fade-in">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block mb-4">
-            <span className="chip stagger-1 animate-fade-in backdrop-blur-sm bg-white/10 dark:bg-black/10 shadow-lg border border-white/20 hover:scale-105 transition-all">September 15-17, 2023</span>
+            <span className="chip stagger-1 animate-fade-in backdrop-blur-sm bg-white/10 dark:bg-black/10 shadow-lg border border-white/20 hover:scale-105 transition-all">March 29, 2025</span>
           </div>
           
           <h1 className="heading-xl mb-6 stagger-2 animate-fade-in text-primary dark:text-white drop-shadow-lg">
-            Reinz' <span className="text-primary">2025</span>
+            REINZ' <span className="text-primary">2025</span>
           </h1>
           
           <p className="subtitle mb-8 max-w-2xl mx-auto stagger-3 animate-fade-in backdrop-blur-sm bg-white/10 dark:bg-black/10 p-4 rounded-lg shadow-lg text-foreground hover:bg-white/20 dark:hover:bg-black/20 transition-all">
