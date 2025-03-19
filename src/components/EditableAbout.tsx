@@ -180,7 +180,7 @@ export function EditableAbout() {
               <img
                 src="images/broucher.jpg"
                 alt="About Symposium"
-                className="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-500 hover:scale-105"
+                className="w-full h-auto md:h-auto object-contain transition-transform duration-500 hover:scale-105"
               />
             </div>
           </div>
