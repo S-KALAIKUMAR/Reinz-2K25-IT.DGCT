@@ -9,16 +9,19 @@ export interface EventType {
   type: 'technical' | 'non-technical' | 'workshop';
   rules?: string[];
   criteria?: string[];
+  bannerImage?: string
 }
+
+
 
 export const eventData: EventType[] = [
   {
     id: 'ideathon',
     title: 'TRACE BACK CODING',
     description: 'Trace Back Coding is a reverse coding challenge where you don’t get the problem statement—just the output and conditions! Your task is to analyze the given constraints, think logically, and write the correct code to match the expected output. If you love problem-solving and coding challenges, this is the ultimate test of your skills!',
-    image:  'public/images/trace.webp', 
+    image:  'images/trace.jpg', 
     date: '2025-03-29',
-    time: '10:00 AM - 2:00 PM',
+    time: '10:00 AM - 1:00 PM',
     type: 'technical',
     rules: [
       "Open to all individual participants interested in solving coding challenges with logic and skill." ,  
@@ -47,9 +50,9 @@ export const eventData: EventType[] = [
     id: 'cook-with-prompt',
     title: 'PROMPT CHEF',
     description: 'Prompt Chef is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge!',
-    image: 'public/images/prompt.webp',
+    image: 'images/super.webp',
     date: '2025-03-29',
-    time: '2:30 PM - 4:30 PM',
+    time: '10:00 AM - 1:00 PM',
     type: 'technical',
     rules: [
       "Open to all individual participants interested in AI-generated images and prompt creation challenges." ,
@@ -73,7 +76,7 @@ export const eventData: EventType[] = [
     id: 'bug-bounty',
     title: 'INNOV8',
     description: 'INNOV8 is a technical event  where you can bring your ideas to life! Whether you have a groundbreaking concept or a prototype project, this is your chance to showcase it. Present your ideas using a PPT or a working prototype and impress the judges with your innovation, problem-solving skills, and creativity. Let your ideas shape the future!',
-    image: 'public/images/innov8.webp',
+    image: 'images/innov8.jpg',
     date: '2025-03-29',
     time: '10:00 AM - 1:00 PM',
     type: 'technical',
@@ -106,7 +109,7 @@ export const eventData: EventType[] = [
     id: 'meme-media',
     title: 'Reinz Auction',
     description: "Rinz Auction is an exciting non-technical event inspired by the IPL auction! Participants will step into the shoes of team owners, strategizing and bidding to build the best possible team within a fixed budget. Make smart decisions, outbid your rivals, and form the ultimate squad. It's all about strategy, planning, and quick thinking—are you ready to take the challenge?",
-    image: 'public/images/Reinz auction.webp',
+    image: 'images/Reinz auction.jpg',
     date: '2025-03-29',
     time: '2:00 PM - 4:00 PM',
     type: 'non-technical',
@@ -140,9 +143,9 @@ export const eventData: EventType[] = [
     id: 'ai-photography',
     title: 'Time Rush',
     description: "Time Rush is a fun team-based event where participants must complete a series of exciting and time-limited challenges. The tasks are designed to test your team's speed, coordination—all while having loads of fun! Each round brings a new surprise, and the difficulty increases as you progress. If your team fails to complete a task within the time limit, you're disqualified! Can your team survive the rush and emerge as the ultimate winners?",
-    image: 'public/images/time.webp',
+    image: 'images/time.jpg',
     date: '2025-03-29',
-    time: '2:00 PM - 5:00 PM',
+    time: '2:00 PM - 4:00 PM',
     type: 'non-technical',
     rules: [
       "The event is team-based, allowing a maximum of four members per team to participate." ,
@@ -171,9 +174,9 @@ export const eventData: EventType[] = [
     id: 'ai-workshop',
     title: 'Build AI-Powered Application',
     description: "Join our hands-on workshop to learn how to build AI-powered applications from scratch! This session is designed for beginners and enthusiasts who want to explore the potential of AI in real-world applications. Through step-by-step guidance, you will learn the fundamentals of AI development and build your own AI-based tool. No prior AI experience is required—just curiosity and a willingness to learn!",
-    image: 'public/images/workshop.webp',
+    image: 'images/workshop.webp',
     date: '2025-03-29',
-    time: '10:00 AM - 4:00 PM',
+    time: '10:00 AM - 1:00 PM',
     type: 'workshop',
     rules: [
       "Open to all students, and no prior AI knowledge is required to participate in the session." ,

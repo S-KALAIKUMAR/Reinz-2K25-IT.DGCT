@@ -4,6 +4,8 @@ import { cn } from '@/lib/utils';
 import { Calendar, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+
+
 interface EventCardProps {
   event: EventType;
   className?: string;
@@ -29,6 +31,8 @@ export function EventCard({ event, className }: EventCardProps) {
   };
 
   return (
+   
+
     <div 
       className={cn(
         'glass-card overflow-hidden transition-all duration-300 ease-in-out flex flex-col h-full',
@@ -85,7 +89,7 @@ export function EventCard({ event, className }: EventCardProps) {
             to={`/event/${event.id}`}
             className="inline-block py-2 px-4 text-sm bg-primary/10 text-primary font-medium rounded-full hover:bg-primary/20 transition-colors w-full text-center hover:scale-105"
           >
-            {event.type === 'workshop' ? 'Register Now' : 'View Details'}
+            {event.type === 'workshop' ? 'Register ' : 'View Details'}
           </Link>
         </div>
       </div>

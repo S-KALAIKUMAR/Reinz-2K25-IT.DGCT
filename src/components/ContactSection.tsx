@@ -1,6 +1,9 @@
 
 import { memo } from 'react';
-import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram , MessageCircle } from 'lucide-react';
+import WhatsAppIcon from "./WhatsAppIcon";
+
+
 
 export const ContactSection = memo(function ContactSection() {
   return (
@@ -95,6 +98,19 @@ export const ContactSection = memo(function ContactSection() {
           </div>
           
           <h3 className="text-xl font-semibold mb-6">Follow Us</h3>
+          
+<div className="flex justify-center space-x-8">
+  <a href="https://chat.whatsapp.com/G9EsjA1hWVdEkTEdhp0RLN" target="_blank" rel="noopener noreferrer"
+    className="flex flex-col items-center transition-transform hover:scale-110">
+    <div className="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center mb-2">
+      {/* Use custom size (e.g., 32px) */}
+      <WhatsAppIcon className="text-purple-700" size={32} />
+    </div>
+    <span className="text-gray-700">WhatsApp</span>
+  </a>
+</div>
+
+
           <div className="flex justify-center space-x-8">
             <a href="https://www.instagram.com/elite_dgct?igsh=YXJ6bWU4MXdjbXNh" target="_blank" rel="noopener noreferrer" 
               className="flex flex-col items-center transition-transform hover:scale-110">

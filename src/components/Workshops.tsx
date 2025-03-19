@@ -205,7 +205,7 @@ export function Workshops() {
                     href="#register"
                     className="px-5 py-2 rounded-full bg-primary text-primary-foreground font-medium text-center transition-all hover:shadow-lg hover:opacity-90"
                   >
-                    Register Now
+                     View Details
                   </a>
                 </div>
               </div>

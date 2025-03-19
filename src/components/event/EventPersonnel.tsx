@@ -50,43 +50,43 @@ export const EventPersonnel = ({ editMode }: EventPersonnelProps) => {
         return [
           { name: "P.Aathish Kumar"},
           { name: "S.Karthikeyan"},
-          { name: ".Aryan Bhaskar sooryavanshi "},
-          { name: "Srinidhi"}
+          { name: "Aryan Bhaskar sooryavanshi "},
+          { name: "K.Srinidhi"}
         ];
       case 'cook-with-prompt':
         return [
           { name: "S.Akash"},
           { name: "L.G.Gopika"},
-          { name: "Mugilan"},
-          { name: "shrimathi"}
+          { name: "A.Mukilan"},
+          { name: "P.Shrimathi"}
         ];
       case 'bug-bounty':
         return [
           { name: "M.Suresh"},
           { name: "M.Sandhiya"},
-          { name: "Afra Fatima"},
-          { name: " Meiyalagan"}
+          { name: "A.Afra Fathima"},
+          { name: "A.Meiyalagan"}
         ];
       case 'meme-media':
         return [
           { name: "R.Arun Eshwar"},
           { name: "S.Arun prasath"},
           { name: "Aryan Bhaskar sooryavanshi"},
-          { name: "Deepak"}
+          { name: "N.Deepak"}
         ];
       case 'ai-photography':
         return [
           { name: "G.Divyadharshini"},
           { name: "A.B.Mohammad Zaffer"},
-          { name: "Balasubramaniam"},
-          { name: "shantha Sri"}
+          { name: "G.Bala Subramaniyan"},
+          { name: "S.Shantha Sri"}
         ];
       case 'ai-workshop':
         return [
           { name: "S.Gokul Dharshan"},
           { name: "M.Subham Kumar "},
-          { name: ".premalatha"},
-          { name: "Guru"}
+          { name: "B.Premalatha"},
+          { name: "D.Guru"}
         ];
       default:
         return [
