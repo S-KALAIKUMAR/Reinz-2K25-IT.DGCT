@@ -45,7 +45,7 @@ export const ContactSection = memo(function ContactSection() {
               </div>
               <div className="flex items-center">
                 <Mail className="text-primary mr-2" size={18} />
-                <p className="text-muted-foreground">varshanadevi@ksrct.ac.in</p>
+                <p className="text-muted-foreground">gulzarbegam.it@dgct.ac.in</p>
               </div>
             </div>
           </div>

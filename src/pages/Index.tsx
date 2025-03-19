@@ -118,7 +118,7 @@ const Index = () => {
                 Register now to participate in our exciting events and workshops!
               </p>
               <a 
-                href="https://forms.gle/5TzQnWDahhKXhR1A8" 
+                href="https://forms.gle/DfnmUGFXv3v5L8nN9" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-lg"

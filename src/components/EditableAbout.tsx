@@ -136,13 +136,13 @@ export function EditableAbout() {
                 <div className="p-8">
                   <h3 className="heading-md mb-4 text-primary">About the Event</h3>
                   <p className="leading-relaxed text-muted-foreground mb-4">
-                    {aboutContent.description}
+                  The Department of Information Technology at Dhirajlal Gandhi College of Technology, in association with Elite Association, is proud to host Reinz 2025, its annual National Level Technical Symposium. This premier event brings together students, researchers, and industry professionals to explore cutting-edge technologies and foster collaboration in the field of information technology.
                   </p>
                   <p className="leading-relaxed text-muted-foreground mb-4">
-                    The symposium features a diverse range of events including technical competitions, workshops, paper presentations, and networking opportunities. Participants will have the chance to demonstrate their skills, learn from industry experts, and connect with peers from various institutions.
+                  Reinz 2025 features a diverse range of events, including technical, non-technical, and workshop sessions. Participants will have the chance to demonstrate their skills, learn from industry experts, and connect with peers from various institutions.
                   </p>
                   <p className="leading-relaxed text-muted-foreground">
-                    This year's theme focuses on emerging technologies in AI, blockchain, and cloud computing. Join us for an immersive learning experience that will enhance your knowledge and open doors to new opportunities in the IT field.
+                  This year's theme focuses on emerging technologies in AI. Join us for an immersive learning experience that will enhance your knowledge and open doors to new opportunities in the IT field.
                   </p>
                 </div>
               ) : (
