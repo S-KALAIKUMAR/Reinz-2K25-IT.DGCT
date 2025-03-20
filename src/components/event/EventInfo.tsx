@@ -59,7 +59,7 @@ const getRegistrationLink = (eventId: string) => {
       case 'meme-media':
         return "Open to all students..";
       case 'ai-photography':
-        return " Bring your own camera if possible.";
+        return " Register early to secure your participation.";
       case 'ai-workshop':
         return "Workshop limited to 50 participants. Laptop Mandatory.";
       default:
