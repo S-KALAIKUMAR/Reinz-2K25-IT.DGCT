@@ -57,7 +57,7 @@ const getRegistrationLink = (eventId: string) => {
       case 'bug-bounty':
         return " Register early to secure your spot.";
       case 'meme-media':
-        return "Open to all students..";
+        return " Register early to secure your participation";
       case 'ai-photography':
         return " Register early to secure your participation.";
       case 'ai-workshop':
