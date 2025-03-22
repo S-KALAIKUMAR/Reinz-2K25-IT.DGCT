@@ -120,19 +120,14 @@ export const ContactSection = memo(function ContactSection() {
               <span className="text-sm text-muted-foreground">elite_dgct</span>
             </a>
             
-            <a 
-              href="#" 
-              onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "mailto:elite@dgct.ac.in";
-           }}
-           className="flex flex-col items-center transition-transform hover:scale-110"
-          >
-           <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2">
-             <Mail className="text-primary" size={20} />
-           </div>
-           <span className="text-sm text-muted-foreground">elite@dgct.ac.in</span>
-          </a>
+            <a href="mailto:elite@dgct.ac.in" 
+              className="flex flex-col items-center transition-transform hover:scale-110">
+               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-2">
+                 <Mail className="text-primary" size={20} />
+               </div>
+              <span className="text-sm text-muted-foreground">elite@dgct.ac.in</span>
+            </a>
+
 
           </div>
         </div>
