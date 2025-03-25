@@ -23,7 +23,7 @@ export const EventInfo = ({ event, editMode = false, editedEvent, setEditedEvent
       case 'meme-media':
         return "IT 3rd Year Classroom (Admin Block)";
       case 'ai-photography':
-        return "IT 3rd Year Classroom (Admin Block)";
+        return "IT 2rd Year Classroom (Admin Block)";
       case 'ai-workshop':
         return "Placement Seminar Hall, Admin Block";
       default:
@@ -51,15 +51,15 @@ const getRegistrationLink = (eventId: string) => {
   const getLimitInfo = (eventId: string) => {
     switch (eventId) {
       case 'ideathon':
-        return " Register early to secure your participation.";
+        return " Rs.150 Per Head";
       case 'cook-with-prompt':
-        return " Registration is first-come, first-served.";
+        return " Rs.150 Per Head";
       case 'bug-bounty':
-        return " Register early to secure your spot.";
+        return " Rs.150 Per Head";
       case 'meme-media':
-        return " Register early to secure your participation";
+        return " Rs.150 Per Head";
       case 'ai-photography':
-        return " Register early to secure your participation.";
+        return "  Rs.150 Per Head";
       case 'ai-workshop':
         return "Workshop limited to 50 participants. Laptop Mandatory.";
       default:
