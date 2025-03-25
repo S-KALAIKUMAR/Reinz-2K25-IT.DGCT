@@ -115,7 +115,7 @@ const Index = () => {
                 Join The Symposium
               </h2>
               <p className="subtitle animate-on-scroll opacity-0 mb-8">
-                Register now to participate in our exciting events and workshops! 
+                Register now to participate in our exciting events and workshops! <br>Rs.150 per head for Technical and Non-Technical <br>Rs.300 per head for Workshop </br></br>
               </p>
               <a 
                 href="https://forms.gle/DfnmUGFXv3v5L8nN9" 
@@ -125,7 +125,6 @@ const Index = () => {
               >
                 Register Now
               </a>
-              <h4>Rs.150 per head for Technical and Non-Technical <br>Rs.300 per head for Workshop </br></h4>
             </div>
           </div>
         </section>
