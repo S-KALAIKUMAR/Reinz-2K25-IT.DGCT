@@ -25,12 +25,12 @@ export const EventPersonnel = ({ editMode }: EventPersonnelProps) => {
         ];
       case 'meme-media':
         return [
-          { name: "Ms.N.Jothi", role: "AP/IT" }
+          { name: "Ms.K.Karthi", role: "AP/IT" }
           
         ];
       case 'ai-photography':
         return [
-          { name: "Ms.K.Karthi", role: "AP/IT" }
+          { name: "Ms.N.Jothi", role: "AP/IT" }
         ];
       case 'ai-workshop':
         return [
