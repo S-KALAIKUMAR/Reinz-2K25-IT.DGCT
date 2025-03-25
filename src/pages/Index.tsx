@@ -116,8 +116,7 @@ const Index = () => {
               </h2>
               <p className="subtitle animate-on-scroll opacity-0 mb-8">
                 Register now to participate in our exciting events and workshops! 
-                Rs.150 per head for Technical and Non-Technical  & 
-                Rs.300 per head for Workshop.
+          
               </p>
               <a 
                 href="https://forms.gle/DfnmUGFXv3v5L8nN9" 
@@ -127,7 +126,7 @@ const Index = () => {
               >
                 Register Now
               </a>
-              <h4>Rs.150 per head for Technical and Non-Technical  & 
+              <h4 className="subtitle animate-on-scroll opacity-0 mb-8">Rs.150 per head for Technical and Non-Technical  & 
                 Rs.300 per head for Workshop.</h4>
             </div>
           </div>
