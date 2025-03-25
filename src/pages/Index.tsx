@@ -127,6 +127,8 @@ const Index = () => {
               >
                 Register Now
               </a>
+              <h4>Rs.150 per head for Technical and Non-Technical  & 
+                Rs.300 per head for Workshop.</h4>
             </div>
           </div>
         </section>
