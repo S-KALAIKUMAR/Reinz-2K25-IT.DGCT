@@ -21,7 +21,7 @@ export const eventData: EventType[] = [
     description: 'Trace Back Coding is a reverse coding challenge where you don’t get the problem statement—just the output and conditions! Your task is to analyze the given constraints, think logically, and write the correct code to match the expected output. If you love problem-solving and coding challenges, this is the ultimate test of your skills!',
     image:  'images/trace.jpg', 
     date: '2025-03-29',
-    time: '10:00 AM - 12:30 PM',
+    time: '11:30 AM - 1:00 PM',
     type: 'technical',
     rules: [
       "Open to all individual participants interested in solving coding challenges with logic and skill." ,  
@@ -52,7 +52,7 @@ export const eventData: EventType[] = [
     description: 'Prompt Chef is a technical event where participants craft precise AI image generation prompts based on given themes. Compete individually to create the most effective prompts within a fixed time. Showcase your creativity and AI skills in this unique challenge!',
     image: 'images/super.webp',
     date: '2025-03-29',
-    time: '10:00 AM - 12:30 PM',
+    time: '10:00 AM - 11:30 AM',
     type: 'technical',
     rules: [
       "Open to all individual participants interested in AI-generated images and prompt creation challenges." ,
@@ -75,34 +75,34 @@ export const eventData: EventType[] = [
   {
     id: 'bug-bounty',
     title: 'INNOV8',
-    description: 'INNOV8 is a technical event  where you can bring your ideas to life! Whether you have a groundbreaking concept or a prototype project, this is your chance to showcase it. Present your ideas using a PPT or a working prototype and impress the judges with your innovation, problem-solving skills, and creativity. Let your ideas shape the future!',
+    description: 'Welcome to Innov8, a platform dedicated to innovative thinking and creative problem-solving! This event challenges participants to identify real-world problems and propose impactful ideas. Present your ideas using a PPT  and impress the judges with your innovative ideas, problem-solving skills, and creativity. Let your ideas shape the future!',
     image: 'images/innov8.jpg',
     date: '2025-03-29',
-    time: '10:00 AM - 12:30 PM',
+    time: '10:00 AM - 11:30 AM',
     type: 'technical',
     rules: [
       "Open to all individuals and teams with a maximum size of four members for participation." ,
 
-"Participants must present their idea using a well-structured PPT or a working prototype." ,
+"Participants must present their idea using a well-structured PPT ." ,
 
 "The idea can be a new concept, product, or an innovative solution to a real-world problem." ,
 
-"The presentation must explain the problem, solution, implementation, and its overall impact." ,
+"The presentation must explain the problem, solution, implementation process,and its overall impact." ,
 
-"The total time limit for the presentation is set to 10 minutes, including all key points." ,
+"The total time limit for the presentation is set to Maximum 10 minutes, including all key points." ,
 
 "After the presentation, judges may ask relevant questions to assess the idea’s depth." 
     ],
     criteria: [
       "Innovation & Creativity: How unique, original, and impactful is the idea in bringing new solutions?" ,
 
-"Problem-Solving: Does the idea effectively address a real-world challenge with a practical approach?",
+"Problem-Solving: Does the idea effectively address a real-world challenge?",
 
 "Feasibility: Can the idea be realistically implemented, considering available resources and technology?" ,
 
-"Presentation Quality: How clearly and effectively is the idea explained, structured, and visually presented?" ,
+"Presentation Quality: How clearly and effectively is the idea explained, structured, and visually presented?" 
 
-"Prototype (if any): How well does the prototype demonstrate and validate the concept’s functionality?" 
+ 
     ]
   },
   {
@@ -111,7 +111,7 @@ export const eventData: EventType[] = [
     description: "Reinz Auction is an exciting non-technical event inspired by the IPL auction! Participants will step into the shoes of team owners, strategizing and bidding to build the best possible team within a fixed budget. Make smart decisions, outbid your rivals, and form the ultimate squad. It's all about strategy, planning, and quick thinking—are you ready to take the challenge?",
     image: 'images/Reinz auction.jpg',
     date: '2025-03-29',
-    time: '11:00 AM - 2:00 PM',
+    time: '12:30 PM - 4:00 PM',
     type: 'non-technical',
     rules: [
       "A list of players for bidding will be provided, categorized into groups with base prices." ,
