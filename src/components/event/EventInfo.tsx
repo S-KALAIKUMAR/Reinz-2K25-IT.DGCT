@@ -15,11 +15,11 @@ export const EventInfo = ({ event, editMode = false, editedEvent, setEditedEvent
   const getVenueInfo = (eventId: string) => {
     switch (eventId) {
       case 'ideathon':
-        return  "Centre For Information Technology Lab 1, First floor (Main Block)";
+        return  "Centre For Information Technology Lab 1&2, First floor (Main Block)";
       case 'cook-with-prompt':
         return "Centre For Information Technology Lab 2, First floor (Main Block)";
       case 'bug-bounty':
-        return "Centre For Information Technology Lab 3, First floor (Main Block)";
+        return "Centre For Information Technology Lab 1, First floor (Main Block)";
       case 'meme-media':
         return "IT 3rd Year Classroom (Admin Block)";
       case 'ai-photography':
