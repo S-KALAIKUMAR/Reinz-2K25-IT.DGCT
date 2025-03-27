@@ -51,7 +51,7 @@ export const EventPersonnel = ({ editMode }: EventPersonnelProps) => {
           { name: "P.Aathish Kumar"},
           { name: "S.Karthikeyan"},
           { name: "Aryan Bhaskar sooryavanshi "},
-          { name: "K.Srinidhi"}
+          { name: "N.Deepak"}
         ];
       case 'cook-with-prompt':
         return [
@@ -72,12 +72,12 @@ export const EventPersonnel = ({ editMode }: EventPersonnelProps) => {
           { name: "R.Arun Eshwar"},
           { name: "S.Arun prasath"},
           { name: "Aryan Bhaskar sooryavanshi"},
-          { name: "N.Deepak"}
+          { name: "M.Kirithick"}
         ];
       case 'ai-photography':
         return [
           { name: "G.Divyadharshini"},
-          { name: "A.B.Mohammad Zaffer"},
+          { name: "S.Kalaikumar"},
           { name: "G.Bala Subramaniyan"},
           { name: "S.Shantha Sri"}
         ];
